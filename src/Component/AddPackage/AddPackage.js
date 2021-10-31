@@ -35,16 +35,16 @@ const AddPackage = () => {
                     <form onSubmit={handleAddPackage}>
                         <p className="text-gray-800 font-bold text-3xl mb-3">Create your own package</p>
                         <div className="mb-2">
-                            <input type="text" placeholder="Package Name" ref={nameRef} className="w-full border border-gray-300 py-2 pl-3 rounded  outline-none focus:ring-indigo-600 :ring-indigo-600" required="" />
+                            <input type="text" placeholder="Package Name" ref={nameRef} className="w-full border border-gray-300 py-2 pl-3 rounded  outline-none focus:ring-indigo-600 :ring-indigo-600" required="required" />
                         </div>
                         <div className="mb-2">
-                            <textarea type="text" ref={desRef} placeholder="Description" className="w-full border border-gray-300 py-2 pl-3 rounded  outline-none focus:ring-indigo-600 :ring-indigo-600" required="" />
+                            <textarea type="text" ref={desRef} placeholder="Description" className="w-full border border-gray-300 py-2 pl-3 rounded  outline-none focus:ring-indigo-600 :ring-indigo-600" required="required" />
                         </div>
                         <div className="mb-2">
-                            <input type="number" placeholder="Cost" ref={costRef} className="w-full border border-gray-300 py-2 pl-3 rounded  outline-none focus:ring-indigo-600 :ring-indigo-600" required="" />
+                            <input type="number" placeholder="Cost" ref={costRef} className="w-full border border-gray-300 py-2 pl-3 rounded  outline-none focus:ring-indigo-600 :ring-indigo-600" required="required" />
                         </div>
                         <div className="mb-2">
-                            <input type="text" placeholder="Image Link" ref={imgRef} className="w-full border border-gray-300 py-2 pl-3 rounded  outline-none focus:ring-indigo-600 :ring-indigo-600" required="" />
+                            <input type="text" placeholder="Image Link" ref={imgRef} className="w-full border border-gray-300 py-2 pl-3 rounded  outline-none focus:ring-indigo-600 :ring-indigo-600" required="required" />
                         </div>
                         <button type="submit" className="px-4 py-1 text-indigo-800 border-indigo-800 border-2 hover:bg-blue-600 hover:text-white transition-all duration-500 font-semibold tracking-wide rounded w-full mt-4">Add Package</button>
                     </form>

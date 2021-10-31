@@ -7,7 +7,7 @@ const Package = ({ packagee }) => {
     return (
         <Col>
             <div className="flex justify-center items-center">
-                <div className="flex flex-col justify-between w-72 sm:w-96 h-96 bg-white bg-center text-gray-800 shadow-md overflow-hidden cursor-pointer  rounded-r-lg" style={{ backgroundImage: `url(${img})` }}>
+                <div className="flex flex-col justify-between w-72 sm:w-96 h-96 bg-white bg-center text-gray-800 shadow-md overflow-hidden cursor-pointer  rounded-r-lg" style={{ backgroundImage: `url(${img})`, backgroundSize: 'cover' }}>
                     <div className="flex justify-between items-center ml-4 pr-8">
                         <div className="bg-indigo-800 text-white bg-opacity-95 shadow px-3 py-2 flex items-center font-semibold mt-3 text-md rounded">${cost}</div>
                     </div>
