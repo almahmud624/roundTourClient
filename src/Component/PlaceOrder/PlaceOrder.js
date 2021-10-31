@@ -57,8 +57,8 @@ const PlaceOrder = () => {
                                 </div>
                             </div>
 
-                            <div className="p-8 bg-indigo-800 rounded flex flex-col lg:w-full xl:w-3/5">
-                                <form className="max-w-xl m-4 p-10 bg-white rounded shadow-xl" onSubmit={handleSubmit(onSubmit)}>
+                            <div className="p-8 bg-indigo-800 rounded flex flex-col lg:w-full justify-center xl:w-3/5">
+                                <form className="max-w-xl m-0 p-3 py-5 bg-white rounded shadow-xl" onSubmit={handleSubmit(onSubmit)}>
                                     <p className="text-gray-800 font-bold text-2xl mb-3">Customer information</p>
                                     <div className="">
                                         <input className="w-full pl-5 py-2 my-2 text-gray-700 bg-gray-200 rounded" type="text" required="" defaultValue={user.displayName} {...register("name")} placeholder="Your Name" aria-label="Name" />

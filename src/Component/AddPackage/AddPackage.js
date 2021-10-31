@@ -31,7 +31,7 @@ const AddPackage = () => {
     return (
         <div>
             <div className=" bg-gray-100 flex justify-center py-12">
-                <div className="px-8 py-6 w-1/2 bg-white rounded-lg shadow-xl">
+                <div className="px-8 py-6 w-3/4 md:w-1/2 bg-white rounded-lg shadow-xl">
                     <form onSubmit={handleAddPackage}>
                         <p className="text-gray-800 font-bold text-3xl mb-3">Create your own package</p>
                         <div className="mb-2">

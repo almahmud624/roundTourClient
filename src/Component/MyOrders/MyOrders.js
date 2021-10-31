@@ -23,24 +23,16 @@ const MyOrders = () => {
                     <div className="flex justify-center flex-col items-start w-full lg:w-9/12 xl:w-full ">
                         <h3 className="text-3xl xl:text-4xl font-semibold leading-7 xl:leading-9 w-full  md:text-left text-blue-600">Order Summary</h3>
                         <div className="order-list flex justify-center items-center w-full mt-8  flex-col space-y-4">
-                            {filterdOrders?.map(order => <div key={Math.random()} className="package-order flex md:flex-row justify-start items-start md:items-center  border-b-2 border-blue-200 w-full">
+                            {filterdOrders?.map(order => <div key={Math.random()} className="package-order flex md:flex-row justify-start items-start md:items-center pb-3  border-b-2 border-blue-200 w-full">
                                 <div className="w-44 md:w-40">
                                     <img className="hidden md:block rounded-lg" src={order.singlePackage?.img} alt="girl-in-red-dress" />
                                     <img className="md:hidden rounded-lg" src={order.singlePackage?.img} alt="girl-in-red-dress" />
                                 </div>
-                                <div className="flex justify-start md:justify-between items-start md:items-center  flex-col md:flex-row w-full p-4 md:px-8">
+                                <div className="flex justify-start md:justify-between items-start md:items-center  flex-col md:flex-row w-full pl-3 md:px-8">
                                     <div className="flex flex-col md:flex-shrink-0  justify-start items-start">
                                         <h3 className="text-lg md:text-xl  w-full font-semibold leading-6 md:leading-5  text-indigo-800">{order.singlePackage?.name}</h3>
-                                        <div className="flex flex-row justify-start  space-x-4 md:space-x-6 items-start mt-4 ">
-                                            <p className="text-sm leading-none text-gray-600">
-                                                Size: <span className="text-gray-800"> Small</span>
-                                            </p>
-                                            <p className="text-sm leading-none text-gray-600">
-                                                Quantity: <span className="text-gray-800"> 01</span>
-                                            </p>
-                                        </div>
                                     </div>
-                                    <div className="flex mt-4 md:mt-0 md:justify-end items-center w-full ">
+                                    <div className="flex md:mt-0 md:justify-end items-center w-full ">
                                         <p className="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-gray-800">$ {order.singlePackage?.cost}.00</p>
                                     </div>
                                 </div>

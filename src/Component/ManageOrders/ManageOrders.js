@@ -33,9 +33,9 @@ const ManageOrders = () => {
                 <div className="w-full z-10 right-0 h-full overflow-x-hidden transform translate-x-0 transition ease-in-out duration-700" id="checkout">
                     <div className="flex md:flex-row flex-col justify-end" id="cart">
                         <div className="w-full md:pl-10 pl-4 pr-10 md:pr-4 md:py-12 py-8 bg-white">
-                            <p className="text-5xl font-black leading-10 text-blue-600 pt-3">Manage Your Orders</p>
+                            <p className="text-5xl font-black leading-10 text-blue-600 pt-3 pb-14">Manage Your Orders</p>
                             {
-                                filterdOrders.map(order => <div key={Math.random()} className="md:flex items-center mt-14 py-8 border-t-2 border-blue-200">
+                                filterdOrders.map(order => <div key={Math.random()} className="md:flex items-center  py-4 border-t-2 border-blue-200">
                                     <div className="w-1/4">
                                         <img className="rounded-xl shadow-md" src={order.singlePackage?.img} alt="" />
                                     </div>
@@ -44,7 +44,7 @@ const ManageOrders = () => {
                                             <p className="text-xl font-black leading-none text-indigo-800">{order.singlePackage?.name}</p>
                                             <p className="text-base font-black leading-none text-indigo-800">$ {order.singlePackage?.cost}</p>
                                         </div>
-                                        <div className=" pt-5 pr-6">
+                                        <div className=" pt-3 pr-6">
 
                                             <div className="flex itemms-center">
                                                 <p className="text-sm leading-3 py-2 px-3 rounded text-indigo-800 border-indigo-800 border-2 hover:bg-blue-600 hover:text-white transition-all duration-500 pl-5 cursor-pointer">Wishlist</p>
