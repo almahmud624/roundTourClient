@@ -1,0 +1,23 @@
+[
+    {
+      "blogName": "4 Reasons Why You Should Travel as a Family",
+      "description": "Family travel can be a lot of fun. There are some things that you can experience when you all travel together that you can’t if you stay at home. The pandemic has made travel difficult the past year-plus, but there are still some places you can go and things you can do this year if you set your minds to it.",
+      "tag":"Travel",
+      "author":"Mario Joos",
+      "img": "https://media.istockphoto.com/photos/family-in-protective-face-masks-in-airport-during-covid19-pandemic-picture-id1284745836?b=1&k=20&m=1284745836&s=170667a&w=0&h=hM3aBSxV8ltrgpbBy0-2dFhKlPCDxrbBTiAD6lt3WYk="
+    },
+    {
+      "blogName": "5 Things to Look for in a Good Hotel",
+      "description": "It doesn’t matter what destination you’re heading to, the accommodations you choose can make or break your trip. Whether you’re going on a business trip, a family vacation or a romantic minibreak, you’ll want to ensure that your surroundings enhance your experience. ",
+      "tag":"Hotel",
+      "author":"Robeca Porana",
+      "img": "https://media.istockphoto.com/photos/downtown-cleveland-hotel-entrance-and-waiting-taxi-cab-picture-id472899538?b=1&k=20&m=472899538&s=170667a&w=0&h=oGDM26vWKgcKA3ARp2da-H4St2dMEhJg23TTBeJgPDE="
+    },
+    {
+      "blogName": "The Most Beautiful Beaches in Kerala",
+      "description": "Southern Kerala is the home to unspoiled waterfronts, rich coastal culture, and Ayurveda resorts that mingle beachy culture with soothing treatments. Kerala has three exquisite beaches. With their soft sand, gently waving palm trees, and crescent shorelines, all three (Hawa Beach",
+      "tag":"Beach",
+      "author":"Jomari Tos",
+      "img": "https://images.unsplash.com/photo-1541710399304-4564edc17038?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8ZmFtaWx5JTIwaW4lMjBiZWFjaHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    }
+  ]
